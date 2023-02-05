@@ -4,7 +4,7 @@ import { Text, View } from 'react-native'
 function HomeScreen() {
   return (
     <View>
-        <Text className='text-9xl'>HomeScreen</Text>
+        <Text className='text-red-600'>HomeScreen</Text>
         <Text>Kutubkhan</Text>
     </View>
   )
