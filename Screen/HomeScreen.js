@@ -28,7 +28,7 @@ function HomeScreen() {
         <View>
           <View>
             <SearchIcon/>
-            <TextInput/>
+            <TextInput placeholder=''/>
           </View>
           <AdjustmentsIcon color='#00CCBB'/>
         </View>
