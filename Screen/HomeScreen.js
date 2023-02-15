@@ -1,6 +1,6 @@
 import { useNavigation } from '@react-navigation/native'
 import React, { useLayoutEffect } from 'react'
-import { Image, SafeAreaView, StatusBar, StyleSheet, Text, View } from 'react-native'
+import { Image, SafeAreaView, StatusBar, StyleSheet, Text, TextInput, View } from 'react-native'
 import {UserIcon,ChevronDownIcon,SearchIcon,AdjustmentsIcon} from 'react-native-heroicons/outline'
 
 function HomeScreen() {
@@ -27,9 +27,10 @@ function HomeScreen() {
         </View>
         <View>
           <View>
-
+            <SearchIcon/>
+            <TextInput/>
           </View>
-          <AdjustmentsIcon color=''/>
+          <AdjustmentsIcon color='#00CCBB'/>
         </View>
       </SafeAreaView>
   )
