@@ -1,6 +1,6 @@
 import React from 'react'
 import { Image, SafeAreaView, StatusBar, StyleSheet, Text, TextInput, View } from 'react-native'
-import {UserIcon,ChevronDownIcon,SearchIcon,AdjustmentsIcon} from 'react-native-heroicons/outline'
+import {UserIcon,ChevronDownIcon,MagnifyingGlassIcon,AdjustmentsVerticalIcon} from 'react-native-heroicons/outline'
 
 const HomeScreen = () => {
   return (
@@ -18,10 +18,10 @@ const HomeScreen = () => {
         </View>
         <View>
           <View className='flex-row space-x-2 flex-1 bg-gray-200 p-3'>
-            <SearchIcon color='gray' size={20}/>
+            <MagnifyingGlassIcon color='gray' size={20}/>
             <TextInput placeholder='Restaurants and cuisines' keyboardType='default'/>
           </View>
-          <AdjustmentsIcon color='#00CCBB'/>
+          <AdjustmentsVerticalIcon color='#00CCBB'/>
         </View>
       </SafeAreaView>
   )
