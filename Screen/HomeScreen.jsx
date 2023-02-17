@@ -2,6 +2,7 @@ import React from 'react'
 import { Image, SafeAreaView, ScrollView, StatusBar, StyleSheet, Text, TextInput, View } from 'react-native'
 import {UserIcon,ChevronDownIcon,MagnifyingGlassIcon,AdjustmentsVerticalIcon} from 'react-native-heroicons/outline'
 import Categories from '../Components/Categories'
+import FeaturedRows from '../Components/FeaturedRows'
 
 const HomeScreen = () => {
   return (
@@ -26,6 +27,7 @@ const HomeScreen = () => {
         </View>
         <ScrollView className='bg-gray-100' contentContainerStyle={{paddingBottom:100}}>
           <Categories/>
+          <FeaturedRows/>
         </ScrollView>
       </SafeAreaView>
   )
