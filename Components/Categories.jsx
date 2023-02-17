@@ -1,11 +1,11 @@
-import { SafeAreaView, StyleSheet, Text, View } from 'react-native'
+import { ScrollView, StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 
 const Categories = () => {
   return (
-    <SafeAreaView>
+    <ScrollView>
       <Text>Categories</Text>
-    </SafeAreaView>
+    </ScrollView>
   )
 }
 
