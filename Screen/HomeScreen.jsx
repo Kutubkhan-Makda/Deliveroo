@@ -27,7 +27,9 @@ const HomeScreen = () => {
         </View>
         <ScrollView className='bg-gray-100' contentContainerStyle={{paddingBottom:100}}>
           <Categories/>
-          <FeaturedRows title='Featured' description='Paid placements from our partners' featuredCategory='featured'/>
+          <FeaturedRows id='1' title='Featured' description='Paid placements from our partners' featuredCategory='featured'/>
+          <FeaturedRows id='2' title='Tasty Discounts' description="Everyone's been enjoying these juicy discounts" featuredCategory='discounts'/>
+          <FeaturedRows id='3' title='Offers near you!' description='Why not support your local restaurant tonight!'/>
         </ScrollView>
       </SafeAreaView>
   )

@@ -1,7 +1,7 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 
-const FeaturedRows = ({title,description,featuredCategory}) => {
+const FeaturedRows = ({id,title,description}) => {
   return (
     <View>
       <Text>FeaturedRows</Text>
