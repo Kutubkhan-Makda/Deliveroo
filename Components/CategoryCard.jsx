@@ -1,7 +1,7 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 
-const CategoryCard = () => {
+const CategoryCard = ({imgUrl,title}) => {
   return (
     <View>
       <Text>CategoryCard</Text>
