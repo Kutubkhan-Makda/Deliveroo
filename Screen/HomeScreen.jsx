@@ -1,5 +1,5 @@
 import React from 'react'
-import { Image, SafeAreaView, StatusBar, StyleSheet, Text, TextInput, View } from 'react-native'
+import { Image, SafeAreaView, ScrollView, StatusBar, StyleSheet, Text, TextInput, View } from 'react-native'
 import {UserIcon,ChevronDownIcon,MagnifyingGlassIcon,AdjustmentsVerticalIcon} from 'react-native-heroicons/outline'
 
 const HomeScreen = () => {
@@ -23,6 +23,9 @@ const HomeScreen = () => {
           </View>
           <AdjustmentsVerticalIcon color='#00CCBB'/>
         </View>
+        <ScrollView>
+          
+        </ScrollView>
       </SafeAreaView>
   )
 }
