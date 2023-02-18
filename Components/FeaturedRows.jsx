@@ -12,7 +12,7 @@ const FeaturedRows = ({id,title,description}) => {
       </View>
       <Text className='text-xs text-gray-500 px-4'>{description}</Text>
       <ScrollView horizontal contentContainerStyle={{paddingHorizontal:15}} showsHorizontalScrollIndicator={false} className='pt-4'>
-        <RestaurantCard/>
+        <RestaurantCard id={123} imgUrl='https://links.papareact.com/gn7' title='Yo shushi' rating={4.5} genre='japeneas' address='123 mn st' short_description='heloo hii my name is bhutu' dishes={[]} long={20.44} lat={36.63}/>
       </ScrollView>
     </View>
   )
